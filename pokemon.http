@@ -1,0 +1,16 @@
+@baseUrl = "https://pokeapi.co/api/v2"
+
+
+### 
+
+GET {{baseUrl}}/pokemon?offset=10&limit=10 HTTP/1.1
+
+
+### 
+
+GET {{baseUrl}}/pokemon?limit=10/120 HTTP/1.1
+
+
+### 
+
+GET {{baseUrl}}/pokemon-color/2 HTTP/1.1
